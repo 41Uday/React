@@ -1,0 +1,36 @@
+
+### GET Request
+
+GET http://localhost:5000/emp/
+
+### GET Request with specific id
+
+GET http://localhost:5000/emp/7
+
+
+
+### POST Request 
+
+POST http://localhost:5000/addemp
+Content-Type: application/json
+
+{
+    "_id":"8",
+    "name":"Shiva",
+    "age":"36"
+}
+
+###PUT REquest
+
+PUT http://localhost:5000/updatemp/7
+Content-Type: application/json
+
+{
+    "age": "28"
+}
+
+
+###Delete Request 
+
+DELETE http://localhost:5000/deleteemp/8
+Content-Type: application/json
